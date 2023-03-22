@@ -70,4 +70,4 @@ $ yarn dev
 
 ## :pushpin: License
 
-:blue_book: Project is licensed under the MIT License.
+:blue_book: This open-sourced project is licensed under the MIT License.
