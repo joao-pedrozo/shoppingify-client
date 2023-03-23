@@ -40,7 +40,6 @@ export const NavigationItem = ({
           w="full"
           h="full"
           color="#454545"
-          borderRadius={0}
           onClick={() => onClick(id)}
           _hover={{
             background: '#f6f6f6',
