@@ -1,3 +1,11 @@
 import { Flex } from '@chakra-ui/react';
+import React from 'react';
+import { NavigationItems } from '../NavigationItems';
 
-export const SideBar = () => <Flex bg="white" width="24" h="full" />;
+export const SideBar = () => {
+  return (
+    <Flex bg="white" width="24" h="full" alignItems={'center'}>
+      <NavigationItems />
+    </Flex>
+  );
+};
