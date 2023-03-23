@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "preinstall": "npx disallow-install npm && echo \"npm install is not allowed. Please use yarn install.\"",
+    "preinstall": "node -e \"if(process.env.npm_execpath.indexOf('yarn') === -1) throw new Error('You must use Yarn to install, not NPM')\"",
     "prepare": "npx husky install"
   },
   "dependencies": {
@@ -26,6 +26,8 @@
     "typescript": "4"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.5.0",
+    "@commitlint/config-conventional": "^17.4.4",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "eslint-config-prettier": "^8.8.0",
     "husky": "^8.0.3",
