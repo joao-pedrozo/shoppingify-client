@@ -3,9 +3,9 @@ module.exports = {
 
   '**/*.(ts|tsx|js)': (filenames) => [
     `yarn eslint ${filenames.join(' ')}`,
-    `yarn prettier --check ${filenames.join(' ')}`,
+    `yarn prettier --write ${filenames.join(' ')}`,
   ],
 
   '**/*.(md|json)': (filenames) =>
-    `yarn prettier --check ${filenames.join(' ')}`,
+    `yarn prettier --write ${filenames.join(' ')}`,
 };
