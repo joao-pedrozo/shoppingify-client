@@ -1,3 +1,12 @@
 import { Flex } from '@chakra-ui/react';
+import { ShoppingList } from '../ShoppingList';
 
-export const SideBar = () => <Flex bg="white" width="24" h="full" />;
+export const SideBar = () => {
+    return ( 
+        <Flex bg="white" width="24" h="full" justify="space-between" alignItems="center" direction="column">
+            
+            <ShoppingList/>
+                      
+        </Flex>
+    );
+}
