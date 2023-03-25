@@ -17,11 +17,8 @@ Shoppingify allows you to take your shopping list wherever you go. This app make
 ## :computer: Technologies
 
 - <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="Logo do typescript" width="13"> Typescript
-  
 - <img src="https://cdn-icons-png.flaticon.com/512/875/875209.png" alt="Logo do react.js" width="13"> React
-  
 - <img src="https://i.imgur.com/1SfMgIo.png" alt="Logo do chakraUi" width="13"> ChakraUI
-  
 - <img src="https://i.imgur.com/UoNv4mi.png" alt="Logo do next.js" width="13"> Next
 
 ---
@@ -29,9 +26,7 @@ Shoppingify allows you to take your shopping list wherever you go. This app make
 ## :mag_right: How to contribute
 
 - :incoming_envelope: The tasks will be posted in the issues section and assigned on the Discord server. Once you receive an assignment, you can proceed to work on it and submit it according to the instructions provided.
-  
-- :memo: If you want to [contribute](https://github.com/joao-pedrozo/shoppingify-client/wiki/How-to-contribute%3F "Contribute") to the project, follow these step-by-step instructions to open a pull request.
-  
+- :memo: If you want to [contribute](https://github.com/joao-pedrozo/shoppingify-client/wiki/How-to-contribute%3F 'Contribute') to the project, follow these step-by-step instructions to open a pull request.
 - :question: If you have any questions or issues, you can contact us on [Discord](https://t.co/QWAGh2nd9j).
 
 ---
@@ -39,7 +34,6 @@ Shoppingify allows you to take your shopping list wherever you go. This app make
 ## :clipboard: Requirements
 
 - <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="logo do node.js" width="13"> Node version: 14.6.0 +
-  
 - :clipboard: Yarn or npm
 
 ---
