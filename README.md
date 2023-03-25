@@ -1,38 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+<img src="https://i.imgur.com/iQgBXbj.png" alt="Logo Shoppingify Client" />
 
-First, run the development server:
+</div>
+
+---
+
+## :book: Overview
+
+![Imgur](https://i.imgur.com/GounMss.png)
+
+Shoppingify allows you to take your shopping list wherever you go. This app makes it easy to create personalized shopping lists for any occasion, from weekly grocery shopping list to birthday gifts. You can also organize your lists by categories and add useful notes such as product sizes and preferences.
+
+---
+
+## :computer: Technologies
+
+- <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="Logo do typescript" width="13"> Typescript
+- <img src="https://cdn-icons-png.flaticon.com/512/875/875209.png" alt="Logo do react.js" width="13"> React
+- <img src="https://i.imgur.com/1SfMgIo.png" alt="Logo do chakraUi" width="13"> ChakraUI
+- <img src="https://i.imgur.com/UoNv4mi.png" alt="Logo do next.js" width="13"> Next
+
+---
+
+## :mag_right: How to contribute
+
+- :incoming_envelope: The tasks will be posted in the issues section and assigned on the Discord server. Once you receive an assignment, you can proceed to work on it and submit it according to the instructions provided.
+- :memo: If you want to [contribute](https://github.com/joao-pedrozo/shoppingify-client/wiki/How-to-contribute%3F 'Contribute') to the project, follow these step-by-step instructions to open a pull request.
+- :question: If you have any questions or issues, you can contact us on [Discord](https://t.co/QWAGh2nd9j).
+
+---
+
+## :clipboard: Requirements
+
+- <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="logo do node.js" width="13"> Node version: 14.6.0 +
+- :clipboard: Yarn or npm
+
+---
+
+## :file_folder: How to set up the project
+
+To get started, clone this repository using Git:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# Clone this repository
+$ git clone https://github.com/joao-pedrozo/shoppingify-client.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, install the project dependencies:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+# Install dependencies
+$ yarn install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Here are some available scripts:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+# Starting from the project root folder, go to frontend folder
+$ cd shoppingify-client
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# install the dependencies
+$ yarn
 
-## Learn More
+# Start the client
+$ yarn dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## :pushpin: License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+:blue_book: This open-sourced project is licensed under the MIT License.

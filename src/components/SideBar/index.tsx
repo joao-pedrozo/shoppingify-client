@@ -1,5 +1,7 @@
 import { Flex } from '@chakra-ui/react';
-import { ProjectLogo } from '@/components/ProjectLogo';
+import { ProjectLogo } from '../ProjectLogo';
+import { NavigationItems } from '../NavigationItems';
+import { ShoppingList } from '../ShoppingList';
 
 export const SideBar = () => {
   return (
@@ -7,11 +9,14 @@ export const SideBar = () => {
       bg="white"
       width="24"
       h="full"
-      justify="center"
-      alignItems="space-between"
-      py="10"
+      py="8"
+      justify="space-between"
+      alignItems="center"
+      direction="column"
     >
       <ProjectLogo />
+      <NavigationItems />
+      <ShoppingList />
     </Flex>
   );
 };
