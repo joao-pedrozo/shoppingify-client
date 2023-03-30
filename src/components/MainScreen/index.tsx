@@ -20,7 +20,7 @@ export const MainScreen = () => {
   return (
     <Flex bg="#fafafe" w="full" justifyContent="space-between" >
       <SideBar />
-      <Box w='100%'>
+      <Box w='100%' h='100vh' overflowY='scroll'>
         <ProductCategory {...listOfCategoriesWithItems[0]}></ProductCategory>
         <ProductCategory {...listOfCategoriesWithItems[1]}></ProductCategory>
         <ProductCategory {...listOfCategoriesWithItems[2]}></ProductCategory>
