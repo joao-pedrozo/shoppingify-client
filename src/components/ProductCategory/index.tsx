@@ -16,7 +16,9 @@ export const ProductCategory = (productCategory: CategoryWithItems) => {
             fontSize='18px'
             fontWeight='500'
             mb='18px'
-        > {title} </Heading>
+        > 
+          {title} 
+        </Heading>
 
         <UnorderedList
             listStyleType="none"
