@@ -8,7 +8,8 @@ type CategoryWithItems = {
 
 export const ProductCategory = (productCategory: CategoryWithItems) => {
     const { title, items } = productCategory;
-    return (<Box m='47px 89px 47px 80px'>
+    return (
+      <Box m='47px 89px 47px 80px'>
         <Heading
             as='h3'
             noOfLines={1}
