@@ -2,18 +2,7 @@ import { Box, Flex } from '@chakra-ui/react';
 import { SideBar } from '@/components/SideBar';
 import { SideDrawer } from '@/components/SideDrawer';
 import { ProductCategory } from '@/components/ProductCategory';
-
-const mockListOfCategoriesWithItems = [{
-    title: 'Fruit and Vegetables',
-    items: ['Avocado ', 'Banana', 'Bunch of purple carrots 5pcs', 'Watermelon', 'Mandarin Nadorcott', 'Orange', 'Spinach', 'Cucumber', 'Broccoli']
-  }, {
-    title: 'Beverages',
-    items: ['Soda ', 'Cola', 'Orange Juice', 'Beer Pilsener 6x', 'Wine']
-  },
-  {
-    title: 'Bakery',
-    items: ['Bread', 'Whole Grain Bread', 'Chocolate Cake', 'Butter Cake', 'Croissant', 'Pan au Chocolat']
-}];
+import { mockListOfCategoriesWithItems } from '@/components/ProductCategory/__mock__/productCategoryData';
 
 export const MainScreen = () => {
   return (
