@@ -1,9 +1,15 @@
 import type { AppProps } from 'next/app';
-import { ChakraProvider } from '@chakra-ui/react';
+import { ChakraProvider, extendTheme } from '@chakra-ui/react';
+
+const theme = extendTheme({
+  fonts: {
+    body: `'Quicksand', sans-serif`,
+  },
+});
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
       <Component {...pageProps} />
 
       {/* We need to do this to make sure that the page have at least 100% height */}
