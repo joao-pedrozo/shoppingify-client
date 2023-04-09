@@ -1,4 +1,4 @@
-import { Flex, Button, Text, Badge } from '@chakra-ui/react';
+import { Flex, IconButton, Text, Badge } from '@chakra-ui/react';
 import { useState } from 'react';
 import { MdOutlineShoppingCart } from 'react-icons/md';
 
@@ -7,34 +7,34 @@ export const ShoppingList = () => {
 
   return (
     <Flex w="full" justify="center">
-      <Button
+      <IconButton
         position="relative"
-        w="46px"
-        h="46px"
+        w="42px"
+        h="42px"
         borderRadius="50%"
         color="white"
         bg="#F9A109"
-        _hover={{ bg: '#f5bb4b' }}
-        _active={{
-          bg: '#f5bb4b',
-        }}
-      >
-        <Text fontSize={24}>
-          <MdOutlineShoppingCart />
-        </Text>
+        _hover={{ bg: '#FF8E22' }}
+        _active={{ bg: '#D5771D' }}
+        aria-label={'Shopping cart'}
+        icon={
+          <>
+            <MdOutlineShoppingCart fontSize={22} />
 
-        <Badge
-          position="absolute"
-          left="34px"
-          top="-6px"
-          p="2px 6px"
-          borderRadius="4px"
-          variant="solid"
-          bg="#EB5757"
-        >
-          <Text fontSize={12}>{count}</Text>
-        </Badge>
-      </Button>
+            <Badge
+              position="absolute"
+              left="34px"
+              top="-5px"
+              p="2px 6px"
+              borderRadius="4px"
+              variant="solid"
+              bg="#EB5757"
+            >
+              <Text fontSize={12}>{count}</Text>
+            </Badge>
+          </>
+        }
+      />
     </Flex>
   );
 };
